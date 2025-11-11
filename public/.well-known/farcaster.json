@@ -1,0 +1,15 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "CryptoTracker",
+    "description": "Suivez vos cryptos et comparez avec vos amis - Leaderboard social et portfolio tracking",
+    "iconUrl": "https://farcaster-crypto-tracker.vercel.app/icon.png",
+    "homeUrl": "https://farcaster-crypto-tracker.vercel.app",
+    "canonicalDomain": "farcaster-crypto-tracker.vercel.app"
+  }
+}
