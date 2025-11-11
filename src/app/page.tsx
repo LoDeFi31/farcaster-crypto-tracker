@@ -1,10 +1,15 @@
 'use client';
 import { useEffect, useState } from 'react';
+import sdk from '@farcaster/frame-sdk';
 
 export default function Home() {
   const [user, setUser] = useState<any>(null);
   const [portfolioValue] = useState(12450);
   const [rank] = useState(42);
+
+    useEffect(() => {
+          sdk.actions.ready();
+        }, []);
 
   useEffect(() => {
     const mockUser = {
